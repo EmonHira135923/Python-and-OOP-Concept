@@ -1,0 +1,26 @@
+class Laptop:
+    def __init__(self,brand,Ram,Rom,Price,Made_in,key_board_size):
+        self.brand = brand
+        self.Ram = Ram
+        self.Rom = Rom
+        self.Price = Price
+        self.Made_in = Made_in
+        self.key_board_size = key_board_size
+    def __repr__(self):
+        return f"Welcome Sir! This is a {self.brand} Company Laptop.It's {self.Ram} Ram and {self.Rom} Rom included.Its Present Price {self.Price} Taka and It's Made in {self.Made_in}.And Latop Key board size is {self.key_board_size}"
+class Phone:
+    def __init__(self,brand,Ram,Rom,Price,Made_in,phone_size):
+        self.brand = brand
+        self.Ram = Ram
+        self.Rom = Rom
+        self.Price = Price
+        self.Made_in = Made_in
+        self.phone_size = phone_size
+    def __repr__(self):
+        return f"Welcome Sir! This is a {self.brand} Company Mobile.It's {self.Ram} Ram and {self.Rom} Rom included.Its Present Price {self.Price} Taka and It's Made in {self.Made_in}.And It's size of set {self.phone_size}" 
+
+Emon = Laptop("Toshiba",12,256,45000,"Bangladesh",10)
+print(Emon)     
+Hira = Phone("Oppo",2,64,10000,"India",5)
+print(Hira)
+        

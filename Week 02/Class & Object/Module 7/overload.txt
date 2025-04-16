@@ -1,0 +1,24 @@
+🔑 Important Dunder (Special) Methods – Overloading-এ ব্যবহার হয়
+
+Method Name	Kaj (কাজ) / ব্যাখ্যা	Example Operator
+__init__	Constructor; object তৈরি করার সময় call হয়	obj = MyClass()
+__str__	String representation	print(obj)
+__repr__	Developer-friendly object representation	repr(obj)
+__add__	+ Operator overload	obj1 + obj2
+__sub__	- Operator overload	obj1 - obj2
+__mul__	* Operator overload	obj1 * obj2
+__truediv__	/ Operator overload	obj1 / obj2
+__floordiv__	// Operator overload	obj1 // obj2
+__mod__	% Operator overload	obj1 % obj2
+__pow__	** Power overload	obj1 ** obj2
+__eq__	== Operator overload	obj1 == obj2
+__ne__	!= Not equal	obj1 != obj2
+__lt__	< Less than	obj1 < obj2
+__le__	<= Less than or equal	obj1 <= obj2
+__gt__	> Greater than	obj1 > obj2
+__ge__	>= Greater than or equal	obj1 >= obj2
+__len__	len() function কাজ করে	len(obj)
+__getitem__	Indexing support	obj[0]
+__setitem__	Index value set করা	obj[1] = x
+__contains__	Membership check (in operator)	x in obj
+__call__	Object কে function এর মতো ব্যবহার করতে পারা	obj()

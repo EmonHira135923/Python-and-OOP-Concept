@@ -1,0 +1,15 @@
+//            Inheritance             //
+
+Inheritance ব্যবহার করে একটি class আরেকটি class থেকে প্রোপার্টি ও মেথড গ্রহণ করতে পারে।
+
+1. Single Inheritance (একক উত্তরাধিকার)
+একটি class অন্য একটি class থেকে প্রোপার্টি এবং মেথড গ্রহণ করতে পারে। এর মাধ্যমে একাধিক class এর মধ্যে কোড reuse করা যায়।
+
+2. Multiple Inheritance (বহুগুণ উত্তরাধিকার)
+একটি class একাধিক class থেকে প্রোপার্টি এবং মেথড গ্রহণ করতে পারে। এর মাধ্যমে একাধিক source class থেকে functionality নেয়া যায়।
+
+3. Multilevel Inheritance (বহুতল উত্তরাধিকার)
+একটি class অন্য একটি class থেকে inherit করার পর, দ্বিতীয় class আবার অন্য একটি class থেকে inherit করে। অর্থাৎ একাধিক level এ inheritance ঘটে।
+
+4. Hierarchical Inheritance (লৌকিক উত্তরাধিকার)
+একটি base class থেকে একাধিক derived class inherit করে। অর্থাৎ একই base class থেকে একাধিক subclass তৈরি হয়।
