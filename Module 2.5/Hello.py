@@ -1,0 +1,1 @@
+print("Hello, world! I am learning C programming language. ^_^\nProgramming is fun and challenging. /\\/\\/\\\nI want to give my 100% dedication to learn!    I will succeed one day.")

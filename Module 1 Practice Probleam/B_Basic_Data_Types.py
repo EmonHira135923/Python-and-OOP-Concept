@@ -1,0 +1,11 @@
+value = int(input())
+value_ll = int(input())
+value_str = str(input())
+value_float = float(input())
+value_double = float(input())
+
+print(value)
+print(value_ll)
+print(value_str)
+print(value_float)
+print(value_double)

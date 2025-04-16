@@ -1,0 +1,15 @@
+num = int(input())
+# arr = list(map(int(input())))
+arr = list(map(int,input().split()))
+pos,val = input().split()
+pos = int(pos)
+val = int(val)
+arr.pop(pos)
+arr.insert(pos,val)
+arr.reverse()
+print(*arr)  
+
+
+# print(num)
+# print(*arr)
+# print(pos,val)

@@ -1,0 +1,14 @@
+Dictionary Topic : 
+
+1 -> Unordered (Python 3.7+ এ insertion order রাখে)
+
+2 -> Key-value pair থাকে
+
+3 -> Index না, key দিয়ে access করতে হয়
+
+4 -> Key unique হয়
+
+Example:
+    mydict = {
+        {name : Emon,Age : 21,Roll : 189123}
+    }
